@@ -7,12 +7,13 @@
     @include m.tablet{
         display: flex;
         height: 100vh;
+        .principal{
+            flex: 1;
+            overflow: scroll;
+        }
     }
-
-    .principal{
-        flex: 1;
-    }
-
+    
+    
     .contenido{
         padding: 2rem;
         .nombre-pagina{
